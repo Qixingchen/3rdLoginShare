@@ -8,7 +8,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
-        versionName PROJ_VERSION
+        versionName 1.2
     }
 
     lintOptions {
@@ -26,10 +26,6 @@ dependencies {
     compile 'com.squareup.okhttp:okhttp:2.6.0'
     compile 'com.google.code.gson:gson:2.5'
 }
-
-// this script was used to upload files to bintray.
-apply from: 'https://raw.githubusercontent.com/msdx/gradle-publish/master/bintray.gradle'
-
 
 
 
