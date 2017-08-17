@@ -22,8 +22,8 @@ import android.text.TextUtils;
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
-import com.tencent.mm.sdk.modelbase.BaseResp;
-import com.tencent.mm.sdk.modelmsg.SendAuth;
+import com.tencent.mm.opensdk.modelbase.BaseResp;
+import com.tencent.mm.opensdk.modelmsg.SendAuth;
 
 import java.io.IOException;
 import java.util.HashMap;

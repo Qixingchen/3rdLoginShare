@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion rootProject.ext.sdk_version
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion rootProject.ext.sdk_version
         versionCode 1
         versionName "1.2"
     }
@@ -22,9 +22,11 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:appcompat-v7:25.4.0'
     compile 'com.squareup.okhttp:okhttp:2.6.0'
-    compile 'com.google.code.gson:gson:2.5'
+    compile 'com.google.code.gson:gson:2.8.0'
+    //share
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.1.6'
 }
 
 
